@@ -1,6 +1,30 @@
 module.exports = {
-  about: 'This application allows you manage your needs \
-  in goods as efficiently as possible. After input needs \
-  you get offers from other users who want sell their goods. \
-  Afterall you\'ll get opportunity to choose cheaper or better quality goods. It is up to you!'
+  presentation: {
+    links: [
+      {
+        name: 'About Us',
+        href: '#'
+      },
+      {
+        name: 'Security',
+        href: '#'
+      },
+      {
+        name: 'FAQs',
+        href: '#'
+      },
+      {
+        name: 'Log In',
+        href: '#'
+      }
+    ],
+    titles: [
+      'How To take back control',
+      'of your personal information and monetize it.'
+    ],
+    buttons: [
+      'By User',
+      'By Business'
+    ]
+  }
 };
