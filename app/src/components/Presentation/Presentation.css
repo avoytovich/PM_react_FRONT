@@ -1,0 +1,46 @@
+.presentation {
+    height: 100%;
+    background-image: url('./../../../assets/presentation_background.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+}
+
+.links {
+    margin-top: 5%;
+    width: 100%;
+    display: inline-block;
+}
+
+.About.Us a, .Security a, .FAQs a, .Log.In a {
+    margin: 10px;
+    font-size: large;
+    color: #ffffff;
+}
+
+.About.Us, .Security, .FAQs, .Log.In {
+    float: right;
+}
+
+.Log.In {
+    margin-left: 5%;
+}
+
+.groupLinks {
+    margin-bottom: 20%;
+}
+
+.titles {
+    color: #ffffff;
+    text-align: center;
+}
+
+.groupButtons {
+    justify-content: center;
+}
+
+.buttons {
+    margin: 10% 10%;
+    width: 25%;
+    font-size: medium;
+}
